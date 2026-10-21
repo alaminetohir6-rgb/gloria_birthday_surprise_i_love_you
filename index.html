@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170d2c">
+  <title>A Little Surprise for Gloria 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow glow-one"></div>
+  <div class="ambient-glow glow-two"></div>
+  <div id="hearts" class="hearts" aria-hidden="true"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <main class="page">
+    <p class="eyebrow">A LITTLE SOMETHING JUST FOR YOU</p>
+
+    <section id="intro" class="screen active" aria-labelledby="intro-title">
+      <div class="sparkle sparkle-a">✦</div>
+      <div class="sparkle sparkle-b">✧</div>
+      <div class="gift-wrap">
+        <button id="giftButton" class="gift" type="button" aria-label="Open your birthday gift">
+          <span class="gift-lid"><span class="bow"></span></span>
+          <span class="gift-body"><span class="gift-heart">♡</span></span>
+          <span class="gift-ribbon"></span>
+        </button>
+      </div>
+      <h1 id="intro-title">Hey, Gloria <span class="pink">♡</span></h1>
+      <p class="lead">There's a little surprise waiting for you.</p>
+      <p class="hint">Take a breath, make a little wish, and tap the gift. ✨</p>
+      <button id="openButton" class="primary-button" type="button">Open your surprise <span>♡</span></button>
+    </section>
+
+    <section id="reveal" class="screen" aria-labelledby="reveal-title" aria-live="polite">
+      <p class="tiny-label">TODAY IS ALL ABOUT YOU</p>
+      <h2 id="reveal-title">Happy Birthday,</h2>
+      <div class="name">Gloria<span>!</span></div>
+      <p class="lead reveal-lead">May your day be as lovely as the happiness you bring to others.</p>
+      <div class="message-card">
+        <div class="card-heart">♡</div>
+        <p>Gloria, I hope this new chapter brings you peace, laughter, beautiful memories, and a thousand little reasons to smile.</p>
+        <p>You're someone I'm genuinely glad to know, and I hope you never forget how special you are. You deserve kindness, good things, and a birthday that makes you feel celebrated.</p>
+        <p class="signoff">Keep shining, birthday girl. 💜</p>
+        <div class="little-secret">
+          <p class="secret-label">P.S. One little thing… 💌</p>
+          <p>Gloria, I don't know if you realize how special you are to me. ❤️</p>
+          <p>I love you, and I'm genuinely grateful that I got to know someone like you. Your smile, your laugh, your personality, and the little things about you make you someone I'll always appreciate.</p>
+          <p>I don't expect anything from you by saying this. I just want you to know that you mean a little more to me than ordinary words can explain. 🥹💜</p>
+          <p>So today, on your birthday, I hope you feel loved, appreciated, and reminded of how amazing you are.</p>
+          <p class="secret-last">Happy Birthday, Gloria. You deserve all the happiness in the world. ❤️✨</p>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="musicButton" class="secondary-button" type="button" aria-pressed="false">♫ Play soft tones</button>
+        <button id="replayButton" class="primary-button" type="button">Make it sparkle again ✨</button>
+      </div>
+      <p class="footer-note">Made with a little thought, just for you. ♡</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
